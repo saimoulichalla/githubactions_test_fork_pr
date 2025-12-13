@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Getting repo info
-        run: echo "This is the repository: ${{ github.repository }}"
+        run: echo "This is repository: ${{ github.repository }}"
