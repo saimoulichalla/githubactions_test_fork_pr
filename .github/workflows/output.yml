@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print full GitHub context
-        run: echo "Context: ${{ toJson(github) }}"
+        run: echo "Context:${{ toJson(github) }}"
       - name: Getting repo info
         run: echo "Repository:${{ github.repository }}"
