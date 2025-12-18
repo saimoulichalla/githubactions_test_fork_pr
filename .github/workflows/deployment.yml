@@ -44,7 +44,7 @@ jobs:
         with:
           node-version: 
       - name: download dependencies 
-        uses: actions/upload-artifact@v6
+        uses: actions/download-artifact@v6
         with:
           name: download artifacts
           path: downloaded_files/
